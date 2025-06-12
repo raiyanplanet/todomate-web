@@ -1,6 +1,6 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { Smartphone, Heart, ArrowUp } from "lucide-react";
+import logo from "../assets/icon.png";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -48,13 +48,13 @@ const Footer = () => {
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.2 }}>
               <motion.div
-                className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center shadow-lg"
+                className="w-8 h-8  rounded-lg flex items-center justify-center shadow-lg"
                 whileHover={{ rotate: 360 }}
                 transition={{ duration: 0.6 }}>
-                <Smartphone className="w-5 h-5 text-white" />
+                <img src={logo} className="w-10 text-white" />
               </motion.div>
               <span className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                TaskFlow
+                Todo-Mate
               </span>
             </motion.div>
             <p className="text-slate-400 mb-4 leading-relaxed">
@@ -92,9 +92,12 @@ const Footer = () => {
             <ul className="space-y-2 text-slate-400">
               {[
                 { name: "Contact", href: "mailto:tawsifulalam2002@gmail.com" },
-                { name: "GitHub", href: "#" },
+                { name: "GitHub", href: "https://github.com/raiyanplanet/" },
                 { name: "LinkedIn", href: "#" },
-                { name: "Portfolio", href: "#" },
+                {
+                  name: "Portfolio",
+                  href: "https://raiyanportfolio.vercel.app",
+                },
               ].map((item, index) => (
                 <motion.li
                   key={item.name}
