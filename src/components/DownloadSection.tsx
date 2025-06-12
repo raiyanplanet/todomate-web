@@ -141,7 +141,7 @@ const DownloadSection = () => {
                       <Download className="w-7 h-7 text-white" />
                     </div>
                     <div>
-                      <a href="https://expo.dev/accounts/raiyan2002/projects/todo-mate/builds/ea7f6613-a8a0-47bf-b15a-59f5eed38c8a.apk/">
+                      <a href="https://expo.dev/accounts/raiyan2002/projects/todo-mate/builds/ea7f6613-a8a0-47bf-b15a-59f5eed38c8a">
                         <p className="text-white font-semibold text-lg">
                           Free Download
                         </p>
@@ -186,7 +186,7 @@ const DownloadSection = () => {
                       <Play className="w-6 h-6" />
                     </div>
                     <div className="text-left">
-                      <a href="https://expo.dev/accounts/raiyan2002/projects/todo-mate/builds/ea7f6613-a8a0-47bf-b15a-59f5eed38c8a.apk/">
+                      <a href="https://expo.dev/accounts/raiyan2002/projects/todo-mate/builds/ea7f6613-a8a0-47bf-b15a-59f5eed38c8a">
                         <p className="text-sm opacity-90">Download for</p>
                         <p className="font-bold">Android</p>
                       </a>
